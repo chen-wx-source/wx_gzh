@@ -13,6 +13,6 @@ mybatis:
   mapperLocations: classpath:mapper/*.xml
 #修改访问端口
 server:
-  port: 8082
+  port: 8080
   servlet:
     context-path: /wx
