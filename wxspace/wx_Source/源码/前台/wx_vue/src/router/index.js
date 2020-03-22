@@ -5,6 +5,7 @@ import Login from '../views/login'
 import UserMsg from '../views/user_msg'
 import Goods from '../views/goods'
 import Order from '../views/order'
+import notFound from '../views/notFount'
 
 Vue.use(Router)
 
@@ -20,7 +21,9 @@ const router=new Router({
         {path: '/Order',name: 'order',component: Order}
       ]
     },
-    {path: '/Login',name: 'login',component: Login}
+    {path: '/Login',name: 'login',component: Login},
+    {path:'/404',name:'notFound',component:notFound},
+    {path:'*',redirect:'/404'}
   ]
 })
 //挂载路由导航守卫

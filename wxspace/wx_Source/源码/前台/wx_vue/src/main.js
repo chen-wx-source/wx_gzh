@@ -19,7 +19,7 @@ axios.interceptors.request.use(config => {
 // Vue.use(VueAxios, axios)
 Vue.prototype.$axios = axios
 //设置默认请求路径
-axios.defaults.baseURL="/liyi"
+axios.defaults.baseURL="/api"
 
 //引入公共样式
 import './assets/global.css'

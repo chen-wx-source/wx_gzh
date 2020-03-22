@@ -28,6 +28,7 @@ public class Test {
         String password = request.getParameter("password");
         System.out.println(userId+"=="+password);
         Map<String,String> map=userService.login(userId,password);
+//        System.out.println(map);
         return map;
     }
     @RequestMapping("/queryMenus")

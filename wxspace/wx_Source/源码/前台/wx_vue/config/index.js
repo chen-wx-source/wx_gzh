@@ -11,11 +11,11 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/liyi':{  // api为匹配项
+      '/api':{  // api为匹配项
             target:'http://localhost:8080/', // 设置代理目标
             changeOrigin: true,//是否允许跨域
             pathRewrite: {  // 重写路径
-              '^/liyi': ' '
+              '^/api': ' /'
             }
         }
     },
