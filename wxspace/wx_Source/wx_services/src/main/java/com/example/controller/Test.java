@@ -39,7 +39,7 @@ public class Test {
         JSONObject json=JSONObject.parseObject(jsonStr);
         List<JSONObject> list=  new ArrayList<JSONObject>();
         list.add(json);
-
+        
         return list;
     }
 
