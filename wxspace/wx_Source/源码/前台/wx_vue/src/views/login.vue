@@ -50,7 +50,7 @@
                                 window.sessionStorage.setItem("token",this.ruleForm.userId);
                                 this.$router.push("/Index");
                             }else{
-                                this.$message.error(result.rtnMsg);
+                                this.$message.info(result.rtnMsg);
                             }
                             console.log("获取结果==",result);
                         }),function(err){

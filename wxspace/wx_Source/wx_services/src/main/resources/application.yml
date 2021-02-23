@@ -9,7 +9,7 @@ spring:
 
 #公共配置与profiles选择无关
 mybatis:
-  typeAliasesPackage: com.example.liyi.entity
+  typeAliasesPackage: com.example.entity
   mapperLocations: classpath:mapper/*.xml
 #修改访问端口
 server:

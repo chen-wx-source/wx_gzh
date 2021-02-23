@@ -59,7 +59,7 @@
                 console.log(key, keyPath);
             },
             queryMeuns(){
-              this.$axios.get("/queryMenus").then((res)=>{
+              this.$axios.get("/wx/queryMenus").then((res)=>{
                 this.menuList=res.data;
               })
             },
